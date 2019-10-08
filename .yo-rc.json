@@ -1,0 +1,10 @@
+{
+  "generator-toolbox": {
+    "promptValues": {
+      "repo": "git@github.com:antistatique/vevey.git",
+      "atomic": "atoms<molecules<organisms",
+      "src": "assets/",
+      "dest": "build"
+    }
+  }
+}
