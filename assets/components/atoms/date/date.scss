@@ -1,1 +1,17 @@
-@charset 'utf-8';
+@charset "utf-8";
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: $regular;
+  .week {
+    color: #8a9198;
+  }
+  .date {
+    color: $midnight-blue;
+  }
+  .time {
+    font-size: 12px;
+  }
+}
