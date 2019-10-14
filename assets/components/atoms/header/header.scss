@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.name {
+  padding: 8px 14.5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba($white, 0.19);
+  border-radius: 4px;
+  font-family: $primary-font;
+  text-align: center;
+}

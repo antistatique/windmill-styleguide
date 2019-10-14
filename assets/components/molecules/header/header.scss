@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.center {
+  background-color: $midnight-blue;
+  text-align: center;
+}
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 12px;
+  opacity: 0.9;
+}
+
+.styleBold {
+  font-size: 18px;
+  font-weight: $semi-Bold;
+  color: $white;
+}
+
+.styleRegular {
+  font-size: 12px;
+  font-weight: $regular;
+  font-family: $primary-font;
+  color: $white;
+  padding-bottom: 12px;
+}

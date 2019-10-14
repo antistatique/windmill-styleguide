@@ -2,6 +2,7 @@
 
 // init:
 @import '../config/variables';
+@import '../config/typo';
 
 // Don't edit the following sections, they should always be preceded by a blank
 // line and have exactly those names for the `$ yo toolbox:generate` command
@@ -10,10 +11,21 @@
 
 //
 // atoms:
+@import 'atoms/button/button';
+@import 'atoms/header/header';
+@import 'atoms/separation/separation';
+@import 'atoms/icon/icon';
+@import 'atoms/title/title';
 
 //
 // molecules:
+@import 'molecules/list/list';
+@import 'molecules/justify-the-hours/justify-the-hours';
+@import 'molecules/header/header';
+@import 'molecules/hoursbuttons/hoursbuttons';
 
 //
 // organisms:
+@import 'organisms/information/information';
+@import 'organisms/list-data/list-data';
 

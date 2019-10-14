@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 11px 8px 7px;
+  font-size: 15px;
+  border-bottom: $greyLine 1px solid;
+}
+
+.bold {
+  font-weight: 600;
+}

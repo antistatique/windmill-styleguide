@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.wrap {
+  background-color: #eff4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  div {
+    display: flex;
+    flex-direction: column;
+    font-family: $primary-font;
+    span{
+      font-size: 0.8em;
+    }
+    label {
+      font-weight: $semi-Bold;
+      span {
+        font-size: 1.3em;
+        font-weight: $regular;
+        padding-bottom: 2px;
+      }
+    }
+  }
+}
