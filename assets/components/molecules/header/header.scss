@@ -3,13 +3,16 @@
 .header {
   background-color: $midnight-blue;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 12px;
+  /*padding-top: 35px;
+  padding-bottom: 12px;*/
+  padding-top: 32px;
+  padding-bottom: 16px;
   opacity: 0.9;
 }
 
 .styleBold {
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1rem;
   font-weight: $semi-Bold;
   color: $white;
 }
@@ -19,5 +22,5 @@
   font-weight: $regular;
   font-family: $primary-font;
   color: $white;
-  padding-bottom: 12px;
+  padding-bottom: 16px;
 }
