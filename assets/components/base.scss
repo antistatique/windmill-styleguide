@@ -12,10 +12,11 @@
 //
 // atoms:
 @import 'atoms/button/button';
-@import 'atoms/header/header';
-@import 'atoms/separation/separation';
+@import 'atoms/list-item/list-item';
 @import 'atoms/icon/icon';
 @import 'atoms/title/title';
+@import 'atoms/name/name';
+@import 'atoms/date/date';
 
 //
 // molecules:
@@ -26,6 +27,5 @@
 
 //
 // organisms:
-@import 'organisms/information/information';
 @import 'organisms/list-data/list-data';
 

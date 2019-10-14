@@ -5,7 +5,7 @@
   border: none;
   border-radius: 4px;
   font-family: $primary-font;
-  font-weight: 600;
+  font-weight: $semi-Bold;
 }
 
 .primaryButton {
@@ -33,7 +33,7 @@
 
 .numberButton {
   @extend %button-shared;
-  background-color: $white;
+  background-color: $pink-statik;
   border: $grey;
   color: $grey;
 }
