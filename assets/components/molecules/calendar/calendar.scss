@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 .line {
-  background-color: pink;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }

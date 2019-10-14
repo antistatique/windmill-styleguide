@@ -7,3 +7,5 @@ variants:
     title: validation
   - name: number
     title: number
+  - name: secondary
+    title: secondary

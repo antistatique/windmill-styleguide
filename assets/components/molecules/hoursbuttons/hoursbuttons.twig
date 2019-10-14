@@ -1,9 +1,9 @@
 <!-- 🛠 HoursButtons component -->
 <div class="align">
   <div class="align">
-    {% include "@atoms/button/button.twig"  with { text: "horaire habituelle", buttonClass: "primaryButton"} %}
-    {% include "@atoms/button/button.twig" with { text: "+", buttonClass: "primaryButton"} %}
-    {% include "@atoms/button/button.twig" with { text: "-", buttonClass: "primaryButton"} %}
-    {% include "@atoms/button/button.twig" with { text: "reset", buttonClass: "secondaryButton trash"} %}
+    {% include "@atoms/button/button.twig"  with {text: "horaire habituelle"} %}
+    {% include "@atoms/button/button-squarebutton.twig" with { text: "+"} %}
+    {% include "@atoms/button/button-squarebutton.twig" with { text: "-"} %}
+    {% include "@atoms/button/button-secondary.twig" with { text: "reset"} %}
   </div>
 </div>
