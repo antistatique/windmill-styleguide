@@ -6,21 +6,24 @@
   /*padding-top: 35px;
   padding-bottom: 12px;*/
   padding-top: 32px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   opacity: 0.9;
+
+  .styleBold {
+    /*font-size: 18px;*/
+    font-size: 1rem;
+    font-weight: $semi-Bold;
+    color: $white;
+  }
+
+  .styleRegular {
+    font-size: 0.5rem;
+    font-weight: $regular;
+    font-family: $primary-font;
+    color: $white;
+  }
+
 }
 
-.styleBold {
-  /*font-size: 18px;*/
-  font-size: 1rem;
-  font-weight: $semi-Bold;
-  color: $white;
-}
 
-.styleRegular {
-  font-size: 12px;
-  font-weight: $regular;
-  font-family: $primary-font;
-  color: $white;
-  padding-bottom: 16px;
-}
+
