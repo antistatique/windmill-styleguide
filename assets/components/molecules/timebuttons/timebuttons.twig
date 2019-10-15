@@ -1,8 +1,7 @@
 <!-- 🛠 TimeButtons component -->
 <div class="threeColumn">
-  {% include "@atoms/button/button-number.twig" %}
-  {% include "@atoms/button/button-number.twig" %}
-  {% include "@atoms/button/button-number.twig" %}
-
+  {% include "@atoms/button/button-number.twig" with {textNumber: "1h"} %}
+  {% include "@atoms/button/button-number.twig" with {textNumber: "1h15"}%}
+  {% include "@atoms/button/button-number.twig" with {textNumber: "1h30"} %}
 </div>
 
