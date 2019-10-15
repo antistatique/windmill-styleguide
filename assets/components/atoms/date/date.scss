@@ -5,12 +5,15 @@
   flex-direction: column;
   align-items: center;
   font-weight: $regular;
+
   .week {
     color: #8a9198;
   }
+
   .date {
     color: $midnight-blue;
   }
+
   .time {
     font-size: 1rem;
   }
