@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 %button-shared {
-  /*padding: 14px 21px 13px 22px;*/
-  padding: 16px 24px;
+  padding: 14px 21px 13px 22px;
   border: none;
   border-radius: $border-radius;
   font-family: $font-primary;
@@ -11,22 +10,21 @@
 
 .primaryButton {
   @extend %button-shared;
+
   background-color: $pink-statik;
   color: $white;
 }
 
 .secondaryButton {
   @extend %button-shared;
+
   color: $pink-statik;
   background-color: rgba($pink-statik,0.15);
 }
 
-.trash {
-  background-image: url("../../../icons/trash.svg");
-}
-
 .validationButton {
   @extend %button-shared;
+
   width: 100%;
   background-color: $pink-statik;
   color: $white;
@@ -34,6 +32,7 @@
 
 .numberButton {
   @extend %button-shared;
+
   background-color: $pink-statik;
   border: $grey;
   color: $grey;
