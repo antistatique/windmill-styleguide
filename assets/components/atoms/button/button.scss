@@ -19,7 +19,7 @@
   @extend %button-shared;
 
   color: $pink-statik;
-  background-color: rgba($pink-statik,0.15);
+  background-color: $pink-statik-clear;
 }
 
 .validationButton {
