@@ -8,9 +8,11 @@
   padding-top: 32px;
   padding-bottom: 8px;
   opacity: 0.9;
+  margin: 0;
 
   .styleBold {
     /*font-size: 18px;*/
+    padding: 8px 0;
     font-size: 1rem;
     font-weight: $semi-Bold;
     color: $white;
@@ -24,6 +26,3 @@
   }
 
 }
-
-
-

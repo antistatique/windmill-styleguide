@@ -1,2 +1,5 @@
 title: List
 name: list
+variants:
+  - name: Variant
+    title: variant

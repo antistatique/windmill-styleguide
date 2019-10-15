@@ -1,2 +1,5 @@
 title: List data
 name: list-data
+variants:
+  - name: variant
+    title: Variant
