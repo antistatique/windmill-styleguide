@@ -22,7 +22,6 @@
     "selector-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
     "at-rule-no-unknown": null,
-    "ignoreAtRules": ["extend"],
     "no-descending-specificity": null,
     "selector-pseudo-element-colon-notation": "single",
     "at-rule-empty-line-before": null,
