@@ -1,16 +1,16 @@
 @charset "utf-8";
 
-.column {
+.date {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: $font-weight-regular;
 
   .week {
-    color: #8a9198;
+    color: $grey-week;
   }
 
-  .date {
+  .day {
     color: $midnight-blue;
   }
 

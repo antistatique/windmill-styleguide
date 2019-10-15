@@ -7,5 +7,6 @@ variants:
     title: validation
   - name: number
     title: number
+    background: "#d1d5db"
   - name: secondary
     title: secondary
