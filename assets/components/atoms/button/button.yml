@@ -1,8 +1,6 @@
 title: Button
 name: button
 variants:
-  - name: squarebutton
-    title: SquareButton
   - name: validation
     title: validation
   - name: number
