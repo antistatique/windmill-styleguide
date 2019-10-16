@@ -30,9 +30,11 @@
   color: $white;
 }
 
-.numberButton {
+.button-number {
   @extend %button-shared;
 
+  /*width: 30%;
+  margin: .5em;*/
   background-color: $pink-statik;
   border: $grey;
   color: $grey;
