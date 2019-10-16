@@ -5,3 +5,8 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.selected {
+  border: 1px solid $pink-statik;
+  border-radius: 3px;
+}

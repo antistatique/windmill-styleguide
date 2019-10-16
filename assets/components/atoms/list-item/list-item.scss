@@ -1,23 +1,20 @@
 @charset "utf-8";
 
-%data-shared {
+.data-shared {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
   border-bottom: $greyLine 1px solid;
 }
 
-.data {
-  @extend %data-shared;
-  /*padding: 18px 11px 8px 7px;*/
-  padding: 8px;
+.data-shared.data {
+  padding: 18px 11px 8px 7px;
 }
 
-.variantData {
-  @extend %data-shared;
+.data-shared.variantData {
   padding: 16px 8px;
 }
 
-.bold {
+.data-shared.bold {
   font-weight: $font-weight-semibold;
 }

@@ -11,14 +11,14 @@
     flex-direction: column;
     font-family: $font-primary;
     span{
-      font-size: 0.8em;
+      font-size: 0.8rem;
     }
     label {
       font-weight: $font-weight-semibold;
       span {
-        font-size: 1.3em;
+        font-size: 1.3rem;
         font-weight: $font-weight-regular;
-        padding-bottom: 2px;
+        padding-bottom: 0.13rem;
       }
     }
   }
