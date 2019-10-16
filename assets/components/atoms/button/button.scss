@@ -1,38 +1,31 @@
 @charset "utf-8";
 
-%button-shared {
+.button-shared {
   padding: 14px 21px 13px 22px;
   border: none;
   border-radius: $border-radius;
   font-family: $font-primary;
   font-weight: $font-weight-semibold;
+
 }
 
-.primaryButton {
-  @extend %button-shared;
-
+.button-shared.primaryButton {
   background-color: $pink-statik;
   color: $white;
 }
 
-.secondaryButton {
-  @extend %button-shared;
-
+.button-shared.secondaryButton {
   color: $pink-statik;
   background-color: $pink-statik-clear;
 }
 
-.validationButton {
-  @extend %button-shared;
-
+.button-shared.validationButton {
   width: 100%;
   background-color: $pink-statik;
   color: $white;
 }
 
-.button-number {
-  @extend %button-shared;
-
+.button-shared.button-number {
   background-color: $pink-statik;
   border: $grey;
   color: $grey;
