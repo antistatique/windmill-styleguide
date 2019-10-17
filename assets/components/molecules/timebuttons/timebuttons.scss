@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-.timebuttons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0.7em;
-  grid-row-gap: 0.7em;
-}
