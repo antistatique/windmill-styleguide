@@ -5,7 +5,6 @@ html {
 }
 
 .button-shared {
-  padding: 0.93rem 1.4rem 0.86rem 1.46rem;
   border: none;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
@@ -13,6 +12,7 @@ html {
 }
 
 .button-shared.primaryButton {
+  padding: 0.75rem 0.63rem 0.718rem 0.56rem;
   background-color: #e30074;
   font-size: 1rem;
   color: #fff;
@@ -25,6 +25,7 @@ html {
 
 .button-shared.validationButton {
   width: 100%;
+  padding: 0.87rem 0.53rem 0.8rem 0.53rem;
   font-size: 1rem;
   background-color: #e30074;
   color: #fff;
@@ -36,41 +37,44 @@ html {
   color: #52565b;
 }
 
+.table-data {
+  width: 100%;
+}
+
 .data-shared {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1rem;
   border-bottom: #dbe1e7 1px solid;
 }
 
-.data-shared.data {
-  padding: 18px 11px 8px 7px;
+.data {
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
 }
 
-.data-shared.variantData {
-  padding: 16px 8px;
-}
-
-.data-shared.bold {
+.bold {
   font-weight: 600;
 }
 
-.title {
+.table-data {
+  width: 100%;
+}
+
+.theadtitle {
+  padding: 0.13rem 0.4rem;
+  border-radius: 4px;
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
   line-height: 21px;
   color: #000032;
   background-color: #edf0f3;
-  border-radius: 4px;
-  padding-left: 6px;
+  text-align: left;
+  margin-bottom: 0.53rem;
 }
 
 .name {
   display: inline-block;
-  padding: 8px 16px;
+  margin: 0;
+  padding: 0.55rem 0.96rem;
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: #fff !important;
   background-color: rgba(255, 255, 255, 0.19);
   border-radius: 4px;
   font-family: "Inter", sans-serif;
@@ -128,19 +132,21 @@ html {
 .header {
   background-color: #000032;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 12px;
+  padding-top: 2.33rem;
+  padding-bottom: 0.53rem;
   opacity: 0.9;
   margin: 0;
 }
-.header .styleBold {
-  padding: 8px 0;
-  font-size: 1rem;
+.header .headerTitleBold {
+  margin: 0;
+  padding: 0.8rem 0;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
 }
-.header .styleRegular {
-  font-size: 0.5rem;
+.header .headerSubtitleRegular {
+  margin: 0;
+  font-size: 0.8rem;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   color: #fff;
@@ -157,21 +163,40 @@ html {
   border-radius: 3px;
 }
 
-table thead {
-  font-size: 2rem;
-  line-height: 21px;
-  color: #000032;
-  border-color: #edf0f3;
-  border-radius: 4px;
-  padding-left: 6px;
+.table-data {
+  width: 100%;
 }
 
-.timebuttons {
+.theadtitle {
+  padding: 0.13rem 0.4rem;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  line-height: 21px;
+  color: #000032;
+  background-color: #edf0f3;
+  text-align: left;
+  margin-bottom: 0.53rem;
+}
+
+.data-shared {
+  border-bottom: #dbe1e7 1px solid;
+}
+
+.data {
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+}
+
+.bold {
+  font-weight: 600;
+  text-align: right;
+}
+
+.buttons-time {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0.7em;
-  grid-row-gap: 0.7em;
+  grid-column-gap: 0.46rem;
+  grid-row-gap: 0.46rem;
 }
 
 /*# sourceMappingURL=base.css.map */

@@ -3,20 +3,22 @@
 .header {
   background-color: $midnight-blue;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 12px;
+  padding-top: 2.33rem;
+  padding-bottom: 0.53rem;
   opacity: 0.9;
   margin: 0;
 
-  .styleBold {
-    padding: 8px 0;
-    font-size: 1rem;
+  .headerTitleBold {
+    margin: 0;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
     font-weight: $font-weight-semibold;
     color: $white;
   }
 
-  .styleRegular {
-    font-size: 0.5rem;
+  .headerSubtitleRegular {
+    margin: 0;
+    font-size: 0.8rem;
     font-weight: $font-weight-regular;
     font-family: $font-primary;
     color: $white;

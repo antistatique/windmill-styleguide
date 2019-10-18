@@ -1,10 +1,29 @@
 @charset "utf-8";
 
-table thead {
-  font-size: 2rem;
+.table-data {
+  width: 100%;
+}
+
+.theadtitle {
+  padding: 0.13rem 0.4rem;
+  border-radius: $border-radius;
+  font-family: $font-primary;
   line-height: 21px;
   color: $midnight-blue;
-  border-color: #edf0f3;
-  border-radius: $border-radius;
-  padding-left: 6px;
+  background-color: $grey-title;
+  text-align: left;
+  margin-bottom: 0.53rem;
+}
+
+.data-shared {
+  border-bottom: $greyLine 1px solid;
+}
+
+.data {
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+}
+
+.bold {
+  font-weight: $font-weight-semibold;
+  text-align: right;
 }
