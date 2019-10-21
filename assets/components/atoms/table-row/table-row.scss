@@ -1,26 +1,14 @@
 @charset "utf-8";
 
-%data-shared {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1rem;
+.table-data tbody tr {
   border-bottom: $greyLine 1px solid;
 }
 
-.data {
-  @extend %data-shared;
-
+.table-data tbody td {
   padding: 0.53rem 0.73rem 0.53rem 0.4rem;
-  //padding: 18px 11px 8px 7px;
 }
 
-.variantData {
-  @extend %data-shared;
-
-  //padding: 16px 8px;
-  padding: 1.06rem 0.53rem;
-}
-
-.bold {
+.table-data tbody td:last-of-type {
   font-weight: $font-weight-semibold;
+  text-align: right;
 }
