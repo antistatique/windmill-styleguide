@@ -2,17 +2,10 @@
 
 .wrap-status {
   background-color: #eff4fa;
-  border-radius: 4px;
+  border-radius: $border-radius;
   display: flex;
   justify-content: space-between;
-  padding: 5em;
-  //border: 22px solid red;
-}
-
-.wrap-status div {
-  /*display: flex;
-  flex-direction: column;
-  font-family: $font-primary;*/
+  padding: 0.33rem;
 }
 
 .hours {
