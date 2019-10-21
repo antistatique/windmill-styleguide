@@ -7,3 +7,10 @@
   grid-column-gap: 0.46rem;
   grid-row-gap: 0.46rem;
 }
+
+.button-time:last-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
