@@ -2,19 +2,33 @@
 
 .date {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: $font-weight-regular;
+  width: 80px;// only in dev mode : on doit définir le width pour le parent
 
-  .week {
-    color: $grey-week;
-  }
+  .date-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem auto;
+    border: 1px solid #000;
+    border-radius: 3px;
+    align-items: center;
+    font-weight: $font-weight-regular;
+    //background: red;
+    min-width: 100%;
 
-  .day {
-    color: $midnight-blue;
-  }
+    &.selected {
+      border-color: $pink-statik;
+    }
 
-  .time {
-    font-size: 0.8rem;
+    .week {
+      color: $grey-week;
+    }
+
+    .day {
+      color: $midnight-blue;
+    }
+
+    .time {
+      font-size: 0.8rem;
+    }
   }
 }

@@ -1,17 +1,18 @@
 @charset "utf-8";
 
-.wrap {
+.wrap-status {
   background-color: #eff4fa;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 10px;
+  padding: 5em;
+  //border: 22px solid red;
 }
 
-.wrap div {
-  display: flex;
+.wrap-status div {
+  /*display: flex;
   flex-direction: column;
-  font-family: $font-primary;
+  font-family: $font-primary;*/
 }
 
 .hours {
@@ -25,5 +26,4 @@
 .numerator {
   font-size: 1.4rem;
   font-weight: $font-weight-regular;
-  padding-bottom: 0.13rem;
 }

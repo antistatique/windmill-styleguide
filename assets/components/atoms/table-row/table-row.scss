@@ -1,15 +1,24 @@
 @charset "utf-8";
 
-.table-data {
-  width: 100%;
-}
-
-.data-shared {
+%data-shared {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
   border-bottom: $greyLine 1px solid;
 }
 
 .data {
+  @extend %data-shared;
+
   padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+  //padding: 18px 11px 8px 7px;
+}
+
+.variantData {
+  @extend %data-shared;
+
+  //padding: 16px 8px;
+  padding: 1.06rem 0.53rem;
 }
 
 .bold {

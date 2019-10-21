@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.wrap-status-hours {
+  background-color: #eff4fa;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.row-status-hours {
+  width: 100%;
+}
+
+.hours-status {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.denominator-status-hours {
+  font-weight: $font-weight-semibold;
+}
+
+.numerator-status-hours {
+  font-size: 1.4rem;
+  font-weight: $font-weight-regular;
+  padding-bottom: 0.13rem;
+}
+
+.button-status-hours {
+  text-align: left;
+}
