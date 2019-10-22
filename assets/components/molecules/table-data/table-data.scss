@@ -55,3 +55,17 @@
 .table-entry tbody td:last-of-type {
   text-align: right;
 }
+
+.table-entry tbody td:last-of-type span {
+  //padding: 0.33rem 0.53rem;
+  margin-right: 1.6rem;
+
+  .button-shared .secondaryButton {
+    //padding: 0.53rem 0.33rem;
+  }
+}
+
+.button .secondaryButton {
+  color: $pink-statik;
+  background-color: $pink-statik-clear;
+}
