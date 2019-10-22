@@ -1,23 +1,14 @@
 @charset "utf-8";
 
 .date {
-  display: flex;
-  width: 80px;// only in dev mode : on doit définir le width pour le parent
-
   .date-content {
     display: flex;
     flex-direction: column;
     padding: 0.5rem auto;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     border-radius: 3px;
     align-items: center;
     font-weight: $font-weight-regular;
-    //background: red;
-    min-width: 100%;
-
-    &.selected {
-      border-color: $pink-statik;
-    }
 
     .week {
       color: $grey-week;

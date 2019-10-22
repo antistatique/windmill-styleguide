@@ -2,6 +2,13 @@
 
 .calendar {
   display: flex;
-  justify-content: space-between;
   margin-top: 1.6rem;
+}
+
+.calendar .date {
+  flex-grow: 1;
+}
+
+.calendar:last-child {
+  border-color: $pink-statik;
 }
