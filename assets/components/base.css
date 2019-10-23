@@ -135,14 +135,14 @@ html {
   opacity: 0.9;
   margin: 0;
 }
-.header .headerTitleBold {
+.header .header-title-bold {
   margin: 0;
   padding: 0.8rem 0;
   font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
 }
-.header .headerSubtitleRegular {
+.header .header-subtitle-regular {
   margin: 0;
   font-size: 0.8rem;
   font-weight: 400;
@@ -219,10 +219,6 @@ html {
   text-align: right;
 }
 
-.table-entry tbody td:last-of-type span {
-  padding: 0.33rem 0.53rem;
-  margin-right: 1.6rem;
-}
 .button .button-secondary {
   color: #e30074;
   background-color: #faddea;

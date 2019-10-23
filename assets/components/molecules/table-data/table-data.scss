@@ -56,15 +56,6 @@
   text-align: right;
 }
 
-.table-entry tbody td:last-of-type span {
-  padding: 0.33rem 0.53rem;
-  margin-right: 1.6rem;
-
-  .button-shared .button-secondary {
-    //padding: 0.53rem 0.33rem;
-  }
-}
-
 .button .button-secondary {
   color: $pink-statik;
   background-color: $pink-statik-clear;
