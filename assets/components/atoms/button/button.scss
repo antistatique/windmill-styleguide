@@ -7,19 +7,19 @@
   font-weight: $font-weight-semibold;
 }
 
-.button-shared.primaryButton {
+.button-shared.button-primary {
   padding: 0.75rem 0.63rem 0.718rem 0.56rem;
   background-color: $pink-statik;
   font-size: 1rem;
   color: $white;
 }
 
-.button-shared.secondaryButton {
+.button-shared.button-secondary {
   color: $pink-statik;
   background-color: $pink-statik-clear;
 }
 
-.button-shared.validationButton {
+.button-shared.button-validation {
   width: 100%;
   padding: 0.87rem 0.53rem 0.8rem 0.53rem;
   font-size: 1rem;
