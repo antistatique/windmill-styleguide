@@ -13,24 +13,22 @@
 // atoms:
 @import 'atoms/button/button';
 @import 'atoms/icon/icon';
-@import 'atoms/table-row/table-row';
 @import 'atoms/title/title';
-@import 'atoms/name/name';
+@import 'atoms/username/username';
 @import 'atoms/date/date';
 
 //
 // molecules:
-@import 'molecules/list/list';
 @import 'molecules/status-hours/status-hours';
 @import 'molecules/header/header';
 @import 'molecules/calendar/calendar';
 @import 'molecules/table-data/table-data';
 @import 'molecules/buttons-row/buttons-row';
 @import 'molecules/buttons-time/buttons-time';
-@import 'molecules/status-hours-tab/status-hours-tab';
 
 
 //
 // organisms:
+@import 'organisms/commentary/commentary';
 
 

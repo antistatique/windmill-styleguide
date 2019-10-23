@@ -11,19 +11,19 @@ html {
   font-weight: 600;
 }
 
-.button-shared.primaryButton {
+.button-shared.button-primary {
   padding: 0.75rem 0.63rem 0.718rem 0.56rem;
   background-color: #e30074;
   font-size: 1rem;
   color: #fff;
 }
 
-.button-shared.secondaryButton {
+.button-shared.button-secondary {
   color: #e30074;
   background-color: #faddea;
 }
 
-.button-shared.validationButton {
+.button-shared.button-validation {
   width: 100%;
   padding: 0.87rem 0.53rem 0.8rem 0.53rem;
   font-size: 1rem;
@@ -57,26 +57,15 @@ html {
   fill: currentColor;
 }
 
-.table-data tbody tr {
-  border-bottom: #dbe1e7 1px solid;
-}
-
-.table-data tbody td {
-  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
-}
-
-.table-data tbody td:last-of-type {
-  font-weight: 600;
-  text-align: right;
-}
-
 .table-data {
   width: 100%;
 }
 
-.theadtitle {
+.title {
+  width: 100%;
   padding: 0.13rem 0.4rem;
   border-radius: 4px;
+  font-size: 0.93rem;
   font-family: "Inter", sans-serif;
   line-height: 21px;
   color: #000032;
@@ -85,7 +74,7 @@ html {
   margin-bottom: 0.53rem;
 }
 
-.name {
+.username {
   display: inline-block;
   margin: 0;
   padding: 0.55rem 0.96rem;
@@ -115,10 +104,6 @@ html {
 }
 .date .date-content .time {
   font-size: 0.8rem;
-}
-
-.align {
-  margin-top: 1.6rem;
 }
 
 .wrap-status {
@@ -181,10 +166,7 @@ html {
 .table-data {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1.6rem;
-  margin-right: 1.06rem;
-  margin-bottom: 2.13rem;
-  margin-left: 1.06rem;
+  padding: 1.6rem 1.06rem 2.13rem 1.06rem;
 }
 
 .table-data thead th {
@@ -208,6 +190,42 @@ html {
 .table-data tbody td:last-of-type {
   font-weight: 600;
   text-align: right;
+}
+
+.table-entry {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-entry thead th {
+  padding: 0.13rem 0.4rem;
+  border-radius: 4px;
+  line-height: 21px;
+  color: #000032;
+  background-color: #edf0f3;
+  text-align: left;
+  margin-bottom: 0.53rem;
+}
+
+.table-entry tbody tr {
+  border-bottom: #dbe1e7 1px solid;
+}
+
+.table-entry tbody td {
+  padding: 1.6rem 0.53rem;
+}
+
+.table-entry tbody td:last-of-type {
+  text-align: right;
+}
+
+.table-entry tbody td:last-of-type span {
+  padding: 0.33rem 0.53rem;
+  margin-right: 1.6rem;
+}
+.button .button-secondary {
+  color: #e30074;
+  background-color: #faddea;
 }
 
 .buttons-row {
@@ -236,40 +254,22 @@ html {
   grid-column-gap: 0.46rem;
   grid-row-gap: 0.46rem;
 }
-.buttons-time .validationButton {
+.buttons-time .button-validation {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 6;
 }
 
-.wrap-status-hours {
-  background-color: #eff4fa;
-  border-radius: 4px;
-  padding: 5px 10px;
-}
-
-.row-status-hours {
+.commentary textarea {
   width: 100%;
-}
-
-.hours-status {
-  font-size: 0.8rem;
-  text-align: right;
-}
-
-.denominator-status-hours {
-  font-weight: 600;
-}
-
-.numerator-status-hours {
-  font-size: 1.4rem;
-  font-weight: 400;
-  padding-bottom: 0.13rem;
-}
-
-.button-status-hours {
-  text-align: left;
+  padding: 0;
+  border: 1px solid #aab2bc;
+  border-radius: 4px;
+  resize: none;
+  font-size: 0.93rem;
+  margin-top: 2.2rem;
+  margin-bottom: 3.8rem;
 }
 
 /*# sourceMappingURL=base.css.map */
