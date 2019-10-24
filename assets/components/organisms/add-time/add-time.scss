@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.title-time {
+  margin: 0;
+  font-size: 1.13rem;
+  font-weight: $font-weight-regular;
+  text-align: center;
+  padding-top: 0.93rem;
+  padding-bottom: 0.8rem;
+}
+
+.add-time .icon-right {
+  display: flex;
+  flex-direction: column;
+
+  .icon {
+    align-self: flex-end;
+  }
+}
