@@ -1,6 +1,6 @@
 @import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 15px;
 }
 
@@ -37,6 +37,10 @@ html {
   color: #52565b;
   padding-bottom: 0.8rem;
   padding-top: 0.86rem;
+  transition: background-color 0.2s;
+}
+.button-shared.button-number:hover {
+  background-color: #e30074;
 }
 
 .icon {
@@ -66,8 +70,9 @@ html {
   padding: 0.13rem 0.4rem;
   border-radius: 4px;
   font-size: 0.93rem;
-  font-family: "Inter", sans-serif;
   line-height: 21px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
   color: #000032;
   background-color: #edf0f3;
   text-align: left;
@@ -275,7 +280,6 @@ html {
 
 .commentary textarea {
   width: 100%;
-  padding: 0;
   border: 1px solid #aab2bc;
   font-size: 0.93rem;
   color: #aab2bc;
@@ -283,6 +287,13 @@ html {
   resize: none;
   margin-top: 2.2rem;
   margin-bottom: 3.8rem;
+}
+.commentary .icon-right {
+  display: flex;
+  flex-direction: column;
+}
+.commentary .icon-right .icon {
+  align-self: flex-end;
 }
 
 .title-time {

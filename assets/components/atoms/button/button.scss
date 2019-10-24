@@ -33,4 +33,9 @@
   color: $grey;
   padding-bottom: 0.8rem;
   padding-top: 0.86rem;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $pink-statik;
+  }
 }
