@@ -16,6 +16,7 @@
 @import 'atoms/title/title';
 @import 'atoms/username/username';
 @import 'atoms/date/date';
+@import 'atoms/title-time/title-time';
 
 //
 // molecules:
@@ -30,5 +31,7 @@
 //
 // organisms:
 @import 'organisms/add-commentary/add-commentary';
+@import 'organisms/data-tables/data-tables';
+@import 'organisms/add-time/add-time';
 
 

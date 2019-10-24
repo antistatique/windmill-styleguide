@@ -1,2 +1,5 @@
 title: Date
 name: date
+variants:
+  - name: selected
+    title: Selected

@@ -4,10 +4,11 @@
   textarea {
     width: 100%;
     padding: 0;
-    border: 1px solid #aab2bc;
+    border: 1px solid $grey-commentary;
+    font-size: 0.93rem;
+    color: $grey-commentary;
     border-radius: $border-radius;
     resize: none;
-    font-size: 0.93rem;
     margin-top: 2.2rem;
     margin-bottom: 3.8rem;
   }

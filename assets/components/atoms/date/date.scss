@@ -5,7 +5,31 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem auto;
-    border: 1px solid transparent;
+    border-radius: 3px;
+    border: 1px solid black;
+    align-items: center;
+    font-weight: $font-weight-regular;
+
+    .week {
+      color: $grey-week;
+    }
+
+    .day {
+      color: $midnight-blue;
+    }
+
+    .time {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.date {
+  .date-content .selected {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem auto;
+    border: 1px solid $pink-statik;
     border-radius: 3px;
     align-items: center;
     font-weight: $font-weight-regular;
