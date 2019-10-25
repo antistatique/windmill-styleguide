@@ -1,29 +1,27 @@
 @charset "utf-8";
 
 .date {
-  .date-content {
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem auto;
-    border-radius: 3px;
-    border: 1px solid black;
-    align-items: center;
-    font-weight: $font-weight-regular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.53rem;
+  border-radius: $border-radius-sm;
+  border: 1px solid transparent;
+  font-weight: $font-weight-regular;
 
-    .week {
-      color: $grey-week;
-    }
+  .week {
+    color: $grey-week;
+  }
 
-    .day {
-      color: $midnight-blue;
-    }
+  .day {
+    color: $midnight-blue;
+  }
 
-    .time {
-      font-size: 0.8rem;
-    }
+  .time {
+    font-size: 0.8rem;
   }
 }
 
-.date-content.selected {
+.date.selected {
   border: 1px solid $pink-statik;
 }

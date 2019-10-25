@@ -6,17 +6,17 @@
   display: flex;
   justify-content: space-between;
   padding: 0.33rem;
-}
 
-.hours {
-  font-size: 0.8rem;
-}
+  .hours {
+    font-size: 0.8rem;
+  }
 
-.denominator {
-  font-weight: $font-weight-semibold;
-}
+  .denominator {
+    font-weight: $font-weight-semibold;
+  }
 
-.numerator {
-  font-size: 1.4rem;
-  font-weight: $font-weight-regular;
+  .numerator {
+    font-size: 1.4rem;
+    font-weight: $font-weight-regular;
+  }
 }

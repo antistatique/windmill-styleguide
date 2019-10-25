@@ -4,42 +4,40 @@ html {
   font-size: 15px;
 }
 
-.button-shared {
+.button {
   border: none;
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
-.button-shared.button-primary {
+.button.button-primary {
   padding: 0.75rem 0.63rem 0.718rem 0.56rem;
   background-color: #e30074;
   font-size: 1rem;
   color: #fff;
 }
 
-.button-shared.button-secondary {
+.button.button-secondary {
   color: #e30074;
   background-color: #faddea;
 }
 
-.button-shared.button-validation {
+.button.button-validation {
   width: 100%;
-  padding: 0.87rem 0.53rem 0.8rem 0.53rem;
+  padding: 0.87rem 0.53rem 0.8rem;
   font-size: 1rem;
   background-color: #e30074;
   color: #fff;
 }
 
-.button-shared.button-number {
+.button.button-number {
   background-color: #fff;
-  border: #52565b;
   color: #52565b;
   padding-bottom: 0.8rem;
   padding-top: 0.86rem;
   transition: background-color 0.2s;
 }
-.button-shared.button-number:hover {
+.button.button-number:hover {
   background-color: #e30074;
 }
 
@@ -61,17 +59,11 @@ html {
   fill: currentColor;
 }
 
-.table-data {
-  width: 100%;
-}
-
 .title {
-  width: 100%;
   padding: 0.13rem 0.4rem;
   border-radius: 4px;
   font-size: 0.93rem;
   line-height: 21px;
-  font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #000032;
   background-color: #edf0f3;
@@ -88,30 +80,29 @@ html {
   color: #fff !important;
   background-color: rgba(255, 255, 255, 0.19);
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
   text-align: center;
 }
 
-.date .date-content {
+.date {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem auto;
-  border-radius: 3px;
-  border: 1px solid black;
   align-items: center;
+  padding: 0.53rem;
+  border-radius: 3px;
+  border: 1px solid transparent;
   font-weight: 400;
 }
-.date .date-content .week {
+.date .week {
   color: #8a9198;
 }
-.date .date-content .day {
+.date .day {
   color: #000032;
 }
-.date .date-content .time {
+.date .time {
   font-size: 0.8rem;
 }
 
-.date-content.selected {
+.date.selected {
   border: 1px solid #e30074;
 }
 
@@ -122,16 +113,13 @@ html {
   justify-content: space-between;
   padding: 0.33rem;
 }
-
-.hours {
+.wrap-status .hours {
   font-size: 0.8rem;
 }
-
-.denominator {
+.wrap-status .denominator {
   font-weight: 600;
 }
-
-.numerator {
+.wrap-status .numerator {
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -145,7 +133,8 @@ html {
   margin: 0;
 }
 .header .header-title-bold {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0.8rem 0;
   font-size: 1.2rem;
   font-weight: 600;
@@ -155,7 +144,6 @@ html {
   margin: 0;
   font-size: 0.8rem;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
   color: #fff;
 }
 
@@ -232,7 +220,6 @@ html {
 
 .buttons-row {
   display: flex;
-  justify-content: space-between;
   margin-top: 1.6rem;
 }
 .buttons-row button {
@@ -249,14 +236,14 @@ html {
   flex-grow: 1;
 }
 
-.buttons-time {
+.time-selection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0.46rem;
   grid-row-gap: 0.46rem;
 }
-.buttons-time .button-validation {
+.time-selection .button-validation {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 5;
@@ -284,6 +271,10 @@ html {
   align-self: flex-end;
 }
 
+.data-tables {
+  padding-bottom: 1.6rem;
+}
+
 .title-time {
   margin: 0;
   font-size: 1.13rem;
@@ -295,7 +286,7 @@ html {
 
 .add-time .icon-right {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
 }
 .add-time .icon-right .icon {
   align-self: flex-end;

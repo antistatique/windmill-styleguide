@@ -11,7 +11,7 @@
 
 .add-time .icon-right {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
 
   .icon {
     align-self: flex-end;

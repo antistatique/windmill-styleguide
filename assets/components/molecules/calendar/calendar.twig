@@ -1,8 +1,7 @@
 <div class="calendar">
-  {% include "@atoms/date/date.twig" with { emoji: "💪", textWeek: "Lun" , textDate: "14", textTime:"08:24", selected: false} %}
-  {% include "@atoms/date/date.twig" with { emoji: "💪", textWeek: "Mar" , textDate: "15", textTime:"08:24", selected: false} %}
-  {% include "@atoms/date/date.twig" with { emoji: "💪", textWeek: "Mer" , textDate: "16", textTime:"09:12", selected: false} %}
-  {% include "@atoms/date/date.twig" with { emoji: "😷", textWeek: "Jeu" , textDate: "17", textTime:"00:00", selected: false} %}
-  {% include "@atoms/date/date-selected.twig" with { emoji: "💪", textWeek: "Ven" , textDate: "17", textTime:"08:24", selected: true} %}
+  {% include "@atoms/date/date.twig" with { emoji: "💪", week: "Lun" , date: "14", time:"08:24", selected: false} %}
+  {% include "@atoms/date/date.twig" with { emoji: "💪", week: "Mar" , date: "15", time:"08:24", selected: false} %}
+  {% include "@atoms/date/date.twig" with { emoji: "💪", week: "Mer" , date: "16", time:"09:12", selected: false} %}
+  {% include "@atoms/date/date.twig" with { emoji: "😷", week: "Jeu" , date: "17", time:"00:00", selected: false} %}
+  {% include "@atoms/date/date-selected.twig" with { emoji: "💪", week: "Ven" , date: "17", time:"08:24", selected: true} %}
 </div>
-

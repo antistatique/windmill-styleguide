@@ -1,18 +1,12 @@
 @charset "utf-8";
 
-.table-data {
-  width: 100%;
-}
-
 .title {
-  width: 100%;
   padding: 0.13rem 0.4rem;
   //padding-top: 0.13rem;
   //padding-bottom: 0.13rem;
   border-radius: $border-radius;
   font-size: 0.93rem;
   line-height: 21px;
-  font-family: $font-primary;
   font-weight: $font-weight-semibold;
   color: $midnight-blue;
   background-color: $grey-title;

@@ -1,35 +1,33 @@
 @charset "utf-8";
 
-.button-shared {
+.button {
   border: none;
   border-radius: $border-radius;
-  font-family: $font-primary;
   font-weight: $font-weight-semibold;
 }
 
-.button-shared.button-primary {
+.button.button-primary {
   padding: 0.75rem 0.63rem 0.718rem 0.56rem;
   background-color: $pink-statik;
   font-size: 1rem;
   color: $white;
 }
 
-.button-shared.button-secondary {
+.button.button-secondary {
   color: $pink-statik;
   background-color: $pink-statik-clear;
 }
 
-.button-shared.button-validation {
+.button.button-validation {
   width: 100%;
-  padding: 0.87rem 0.53rem 0.8rem 0.53rem;
+  padding: 0.87rem 0.53rem 0.8rem;
   font-size: 1rem;
   background-color: $pink-statik;
   color: $white;
 }
 
-.button-shared.button-number {
+.button.button-number {
   background-color: $white;
-  border: $grey;
   color: $grey;
   padding-bottom: 0.8rem;
   padding-top: 0.86rem;
