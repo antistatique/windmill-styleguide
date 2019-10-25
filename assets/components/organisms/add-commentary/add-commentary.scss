@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 .commentary {
+  box-sizing: border-box;
+
   textarea {
     width: 100%;
-    //padding: 0.66rem 0.53rem 7.26rem;
     border: 1px solid $grey-commentary;
     font-size: 0.93rem;
     color: $grey-commentary;
