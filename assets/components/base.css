@@ -111,23 +111,8 @@ html {
   font-size: 0.8rem;
 }
 
-.date .date-content .selected {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem auto;
+.date-content.selected {
   border: 1px solid #e30074;
-  border-radius: 3px;
-  align-items: center;
-  font-weight: 400;
-}
-.date .date-content .selected .week {
-  color: #8a9198;
-}
-.date .date-content .selected .day {
-  color: #000032;
-}
-.date .date-content .selected .time {
-  font-size: 0.8rem;
 }
 
 .wrap-status {
@@ -186,7 +171,7 @@ html {
 .table-data {
   width: 100%;
   border-collapse: collapse;
-  padding: 1.6rem 1.06rem 2.13rem 1.06rem;
+  margin-bottom: 10px;
 }
 
 .table-data thead th {
@@ -278,6 +263,9 @@ html {
   grid-row-end: 6;
 }
 
+.commentary {
+  box-sizing: border-box;
+}
 .commentary textarea {
   width: 100%;
   border: 1px solid #aab2bc;
