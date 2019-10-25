@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.table-data {
+  width: 100%;
+  border-collapse: collapse;
+
+  & thead th {
+    padding: 0.13rem 0.4rem;
+    border-radius: $border-radius;
+    line-height: 21px;
+    color: $midnight-blue;
+    background-color: $grey-title;
+    text-align: left;
+    margin-bottom: 0.53rem;
+  }
+
+  & tbody tr {
+    border-bottom: $greyLine 1px solid;
+  }
+
+  & tbody td:last-of-type {
+    text-align: right;
+  }
+}
+
+.information {
+  margin-bottom: 1.6rem;
+}
+
+.information thead th {
+  margin-top: 1.6rem;
+}
+
+.information tbody td {
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+}
+
+.information tbody td:last-of-type {
+  font-weight: $font-weight-semibold;
+}

@@ -39,6 +39,7 @@ html {
 }
 .button.button-number:hover {
   background-color: #e30074;
+  color: #fff;
 }
 
 .icon {
@@ -111,7 +112,7 @@ html {
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
-  padding: 0.33rem;
+  padding: 0.33rem 0.33rem 0.33rem 1rem;
 }
 .wrap-status .hours {
   font-size: 0.8rem;
@@ -159,7 +160,7 @@ html {
 .table-data {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 10px;
+  margin-bottom: 1.6rem;
 }
 
 .table-data thead th {
@@ -250,18 +251,53 @@ html {
   grid-row-end: 6;
 }
 
-.commentary {
-  box-sizing: border-box;
-}
-.commentary textarea {
+.table-data {
   width: 100%;
-  border: 1px solid #aab2bc;
-  font-size: 0.93rem;
-  color: #aab2bc;
+  border-collapse: collapse;
+}
+.table-data thead th {
+  padding: 0.13rem 0.4rem;
   border-radius: 4px;
-  resize: none;
+  line-height: 21px;
+  color: #000032;
+  background-color: #edf0f3;
+  text-align: left;
+  margin-bottom: 0.53rem;
+}
+.table-data tbody tr {
+  border-bottom: #dbe1e7 1px solid;
+}
+.table-data tbody td:last-of-type {
+  text-align: right;
+}
+
+.information {
+  margin-bottom: 1.6rem;
+}
+
+.information thead th {
+  margin-top: 1.6rem;
+}
+
+.information tbody td {
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+}
+
+.information tbody td:last-of-type {
+  font-weight: 600;
+}
+
+.commentary textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.66rem 0.53rem;
   margin-top: 2.2rem;
   margin-bottom: 3.8rem;
+  border: 1px solid #aab2bc;
+  border-radius: 4px;
+  font-size: 0.93rem;
+  color: #aab2bc;
+  resize: none;
 }
 .commentary .icon-right {
   display: flex;
@@ -272,7 +308,9 @@ html {
 }
 
 .data-tables {
-  padding-bottom: 1.6rem;
+  margin-top: 1rem;
+  margin-left: 1.06rem;
+  margin-right: 1.06rem;
 }
 
 .title-time {

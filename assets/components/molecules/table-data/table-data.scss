@@ -3,8 +3,7 @@
 .table-data {
   width: 100%;
   border-collapse: collapse;
-  //padding: 1.6rem 1.06rem 2.13rem 1.06rem;
-  margin-bottom: 10px;
+  margin-bottom: 1.6rem; //
 }
 
 .table-data thead th {
@@ -15,7 +14,7 @@
   background-color: $grey-title;
   text-align: left;
   margin-bottom: 0.53rem;
-  margin-top: 1.6rem;
+  margin-top: 1.6rem; //
 }
 
 .table-data tbody tr {
@@ -23,11 +22,11 @@
 }
 
 .table-data tbody td {
-  padding: 0.53rem 0.73rem 0.53rem 0.4rem;
+  padding: 0.53rem 0.73rem 0.53rem 0.4rem; //
 }
 
 .table-data tbody td:last-of-type {
-  font-weight: $font-weight-semibold;
+  font-weight: $font-weight-semibold; //
   text-align: right;
 }
 
