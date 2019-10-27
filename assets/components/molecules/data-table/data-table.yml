@@ -1,2 +1,5 @@
-title: Data-table
+title: Data table
 name: data-table
+variants:
+  - name: entry-hours
+    title: Entry-hours
