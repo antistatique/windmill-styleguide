@@ -25,3 +25,8 @@
 .date.selected {
   border: 1px solid $pink-statik;
 }
+.date {
+  .extra-hours {
+    color: $pink-statik;
+  }
+}

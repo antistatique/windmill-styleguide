@@ -3,3 +3,5 @@ name: date
 variants:
   - name: selected
     title: Selected
+  - name: extra-hours
+    title: Extra-hours
