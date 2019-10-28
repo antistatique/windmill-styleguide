@@ -5,10 +5,17 @@
   text-align: center;
   //padding-top: 2.33rem;
   //padding-bottom: 0.53rem;
-  padding-top: 2.5rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   opacity: 0.9;
   margin: 0;
+
+  .icon-right {
+    display: flex;
+    justify-content: flex-end;
+    color: $white;
+    margin-right: 1.5rem;
+  }
 
   .header-title-bold {
     margin-top: 0;

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .table-data {
-  //width: 100%;
+  width: 100%;
   border-collapse: collapse;
 
   & thead th {
@@ -25,22 +25,22 @@
   }
 }
 
-.information {
+.table-count {
   //margin-bottom: 1.6rem;
   margin-bottom: 1.5rem;
 }
 
-.information thead th {
+.table-count thead th {
   //margin-top: 1.6rem;
   margin-top: 1.5rem;
 }
 
-.information tbody td {
+.table-count tbody td {
   //padding: 0.53rem 0.73rem 0.53rem 0.4rem;
   padding: 0.5rem;
 }
 
-.information tbody td:last-of-type {
+.table-count tbody td:last-of-type {
   font-weight: $font-weight-semibold;
 }
 
