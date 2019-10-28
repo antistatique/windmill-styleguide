@@ -1,15 +1,13 @@
 @charset "utf-8";
 
 .title {
-  padding: 0.13rem 0.4rem;
-  //padding-top: 0.13rem;
-  //padding-bottom: 0.13rem;
+  margin-bottom: 0.53rem;
   border-radius: $border-radius;
+  padding: 0.13rem 0.4rem;
   font-size: 0.93rem;
   line-height: 21px;
   font-weight: $font-weight-semibold;
   color: $midnight-blue;
   background-color: $grey-title;
   text-align: left;
-  margin-bottom: 0.53rem;
 }
