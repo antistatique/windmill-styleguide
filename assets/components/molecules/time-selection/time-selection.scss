@@ -4,8 +4,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0.46rem;
-  grid-row-gap: 0.46rem;
+  //0.46
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
 
   .button-validation {
     grid-column-start: 1;

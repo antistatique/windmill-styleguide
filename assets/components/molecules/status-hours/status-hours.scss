@@ -5,10 +5,11 @@
   border-radius: $border-radius;
   display: flex;
   justify-content: space-between;
-  padding: 0.33rem 0.33rem  0.33rem 1rem;
+  //padding: 0.33rem 0.33rem  0.33rem 1rem;
+  padding: 0.5rem;
 
   .hours {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .denominator {
@@ -16,7 +17,7 @@
   }
 
   .numerator {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: $font-weight-regular;
   }
 }

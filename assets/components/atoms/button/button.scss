@@ -7,7 +7,8 @@
 }
 
 .button.button-primary {
-  padding: 0.75rem 0.63rem 0.718rem 0.56rem;
+  //padding: 0.75rem 0.63rem 0.718rem 0.56rem;
+  padding: 0.5rem 1rem;
   background-color: $pink-statik;
   font-size: 1rem;
   color: $white;
@@ -20,17 +21,20 @@
 
 .button.button-validation {
   width: 100%;
-  padding: 0.87rem 0.53rem 0.8rem;
+  //padding: 0.87rem 0.53rem 0.8rem;
+  padding: 1rem;
   font-size: 1rem;
   background-color: $pink-statik;
   color: $white;
 }
 
 .button.button-number {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   background-color: $white;
   color: $grey;
-  padding-bottom: 0.8rem;
-  padding-top: 0.86rem;
+  //padding-bottom: 0.8rem;
+  //padding-top: 0.86rem;
   transition: background-color 0.2s;
 
   &:hover {
