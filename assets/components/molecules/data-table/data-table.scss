@@ -4,7 +4,7 @@
   width: 100%;
   border-collapse: collapse;
 
-  & thead th {
+  thead th {
     margin-bottom: 0.5rem;
     border-radius: $border-radius;
     padding: 0.125rem 0.5rem;
@@ -14,11 +14,11 @@
     text-align: left;
   }
 
-  & tbody tr {
+  tbody tr {
     border-bottom: $greyLine 1px solid;
   }
 
-  & tbody td:last-of-type {
+  tbody td:last-of-type {
     text-align: right;
   }
 }
