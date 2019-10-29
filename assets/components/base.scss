@@ -25,9 +25,11 @@
 @import "molecules/calendar-header/calendar-header";
 @import "molecules/time-selection/time-selection";
 @import "molecules/data-table/data-table";
+@import 'molecules/nav/nav';
 
 //
 // organisms:
 @import "organisms/add-commentary/add-commentary";
 @import "organisms/data-tables/data-tables";
 @import "organisms/add-time/add-time";
+@import 'organisms/stamp-hours/stamp-hours';

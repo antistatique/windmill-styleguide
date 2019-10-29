@@ -20,13 +20,12 @@
   .time {
     font-size: 0.8rem;
   }
+
+  .extra-hours {
+    color: $pink-statik;
+  }
 }
 
 .date.selected {
   border: 1px solid $pink-statik;
-}
-.date {
-  .extra-hours {
-    color: $pink-statik;
-  }
 }
