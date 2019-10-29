@@ -1,5 +1,12 @@
 {
   "icons": [
-    "icon-trash"
+    "arrow-left",
+    "arrow-right",
+    "chrono",
+    "close",
+    "dashboad",
+    "edit",
+    "information",
+    "trash"
   ]
 }

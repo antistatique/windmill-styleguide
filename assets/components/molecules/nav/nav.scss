@@ -3,17 +3,17 @@
 .nav {
   border-top: 1px solid $greyLine;
   display: flex;
+
   a {
     display: block;
     width: 50%;
     text-align: center;
+
     .icon {
       width: 2.0625rem;
       height: 2.0625rem;
+      //width: 2.0625rem;
+      //height: 1.5rem;
     }
-    /*.icon {
-      width: 2.0625rem;
-      height: 1.5rem;
-    }*/
   }
 }
