@@ -8,6 +8,9 @@
   //padding: 0.33rem 0.33rem  0.33rem 1rem;
   padding: 0.5rem;
   margin-bottom: 1.5rem;
+  .button.button-primary {
+    font-size: 0.875;
+  }
 
   .hours {
     font-size: 0.75rem;
@@ -19,6 +22,6 @@
 
   .numerator {
     font-size: 1.3125rem;
-    font-weight: $font-weight-regular;
+    font-weight: $font-weight-semibold;
   }
 }

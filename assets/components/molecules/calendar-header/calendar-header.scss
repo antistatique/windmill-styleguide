@@ -5,17 +5,17 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 
-  & .icon {
+  .icon {
     color: $grey-arrow;
   }
 
-  & .month {
+  .month {
     font-size: 0.625rem;
     font-weight: $font-weight-regular;
     text-align: center;
   }
 
-  & .week {
+  .week {
     font-size: 0.875rem;
     font-weight: $font-weight-semibold;
     text-align: center;
