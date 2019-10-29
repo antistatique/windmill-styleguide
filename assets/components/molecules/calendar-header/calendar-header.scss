@@ -5,6 +5,10 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 
+  & .icon {
+    color: $grey-arrow;
+  }
+
   & .month {
     font-size: 0.625rem;
     font-weight: $font-weight-regular;
