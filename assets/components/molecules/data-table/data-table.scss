@@ -5,10 +5,8 @@
   border-collapse: collapse;
 
   & thead th {
-    //margin-bottom: 0.53rem;
     margin-bottom: 0.5rem;
     border-radius: $border-radius;
-    //padding: 0.13rem 0.4rem;
     padding: 0.125rem 0.5rem;
     line-height: 21px;
     color: $midnight-blue;
@@ -26,17 +24,14 @@
 }
 
 .table-count {
-  //margin-bottom: 1.6rem;
   margin-bottom: 1.5rem;
 }
 
 .table-count thead th {
-  //margin-top: 1.6rem;
   margin-top: 1.5rem;
 }
 
 .table-count tbody td {
-  //padding: 0.53rem 0.73rem 0.53rem 0.4rem;
   padding: 0.5rem;
 }
 
@@ -49,7 +44,6 @@
 }
 
 .entry-hours tbody td {
-  //padding: 1.6rem 0.53rem;
   padding: 1rem 0.5rem;
 }
 

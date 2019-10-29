@@ -3,8 +3,6 @@
 .header {
   background-color: $midnight-blue;
   text-align: center;
-  //padding-top: 2.33rem;
-  //padding-bottom: 0.53rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   opacity: 0.9;
@@ -24,9 +22,7 @@
   .header-title-bold {
     margin-top: 0;
     margin-bottom: 0;
-    //padding: 0.8rem 0;
     padding: 0.5rem 0;
-    //font-size: 1.2rem;
     font-size: 1.125rem;
     font-weight: $font-weight-semibold;
     color: $white;
@@ -34,7 +30,6 @@
 
   .header-subtitle-regular {
     margin: 0;
-    //font-size: 0.8rem;
     font-size: 0.75rem;
     font-weight: $font-weight-regular;
     color: $white;
