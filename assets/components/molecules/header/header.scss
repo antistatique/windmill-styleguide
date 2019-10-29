@@ -13,8 +13,11 @@
   .icon-right {
     display: flex;
     justify-content: flex-end;
-    color: $white;
     margin-right: 1.5rem;
+    .icon {
+      color: $white;
+      font-size: 1.25rem;
+    }
   }
 
   .header-title-bold {
