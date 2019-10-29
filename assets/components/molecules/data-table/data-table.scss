@@ -46,9 +46,16 @@
 
 .entry-hours tbody td {
   //padding: 1.6rem 0.53rem;
-  padding: 1.5rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 .entry-hours {
-  margin-bottom: 1rem;
+  .button.button-secondary {
+    padding: 0.3125rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.entry-hours tbody tr:last-of-type {
+  border-bottom: 0;
 }
