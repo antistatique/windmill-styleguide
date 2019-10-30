@@ -12,6 +12,11 @@
   background-color: $pink-statik;
   font-size: 1rem;
   color: $white;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: darken($pink-statik, 10);
+  }
 }
 
 .button.button-secondary {
