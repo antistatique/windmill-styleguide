@@ -10,7 +10,9 @@
   "scripts": {
     "start": "toolbox serve",
     "build": "toolbox build",
-    "deploy": "toolbox build styleguide && toolbox deploy"
+    "deploy": "toolbox build styleguide && toolbox deploy",
+    "lint:css": "stylelint ./assets/**/*.{css,scss,styles.js,styles.jsx}",
+    "lint:js": "eslint . --ext .js,.jsx --max-warnings=0"
   },
   "husky": {
     "hooks": {
