@@ -1,8 +1,13 @@
 @charset 'utf-8';
 
 .nav {
-  border-top: 1px solid $greyLine;
   display: flex;
+  border-top: 1px solid $greyLine;
+  background-color: $white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
   a {
     display: block;
