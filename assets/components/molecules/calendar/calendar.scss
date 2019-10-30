@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.calendar {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.calendar .date {
+  flex-grow: 1;
+}

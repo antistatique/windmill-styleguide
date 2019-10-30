@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.buttons-row {
+  display: flex;
+
+  button {
+    flex: 0 0 3.15rem;
+    margin-right: 0.5rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:first-child {
+      flex-grow: 1;
+    }
+  }
+}
