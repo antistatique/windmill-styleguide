@@ -1,17 +1,16 @@
-/* globals jQuery, document */
-
 // You will use that file to import all your scripts
-// Ex: import gallery from './gallery'
 import svgIcons from '../icons/svg-icons';
+
+import addCommentary from './organisms/add-commentary/add-commentary';
 
 svgIcons(); // Must run as soon as possible
 
 const init = () => {
   // Run your imported scripts
-  // Ex: gallery();
+  addCommentary();
 };
 
-(function ($) {
+(function($) {
   $(document).ready(() => init());
 })(jQuery);
 document.addEventListener('ToolboxReady', () => init());

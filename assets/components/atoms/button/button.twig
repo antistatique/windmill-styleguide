@@ -1,1 +1,3 @@
-<button class="button button-primary">{{text|default('Justifier les heures')}}</button>
+<button class="button button-primary"{% if id %} id="{{id}}"{% endif %}>
+  {{text|default('Justifier les heures')}}
+</button>
