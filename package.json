@@ -12,6 +12,15 @@
     "build": "toolbox build",
     "deploy": "toolbox build styleguide && toolbox deploy"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "assets/**/*.{js,jsx}": "eslint --ext .js,.jsx --max-warnings=0",
+    "assets/**/*.{css,scss,styles.js,styles.jsx}": "stylelint"
+  },
   "browserslist": [
     "> 1% in CH",
     "last 2 versions"
