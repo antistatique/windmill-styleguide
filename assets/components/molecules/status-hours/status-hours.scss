@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 .wrap-status {
-  background-color: $grey-backgound;
-  border-radius: $border-radius;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
+  border-radius: $border-radius;
   margin-bottom: 1.5rem;
+  background-color: $grey-backgound;
 
   .button.button-primary {
     font-size: 0.875;
