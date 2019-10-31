@@ -1,21 +1,16 @@
 <table class="table-data table-count">
   <thead>
   <tr>
-    <th colspan="2">Budget temps</th>
+    <th colspan="2">{{title|default('Budget temps')}}</th>
   </tr>
   </thead>
   <tbody>
+  {% for row in items|batch(2,"") %}
   <tr>
-    <td>Année en cours 2019</td>
-    <td>13.5 j</td>
+   {% for column in row %}
+        <td>{{ column }}</td>
+    {% endfor %}
   </tr>
-  <tr>
-    <td>Report 2018</td>
-    <td>10.7 j</td>
-  </tr>
-  <tr>
-    <td>Heures supplémentaire</td>
-    <td>5.36 h</td>
-  </tr>
+  {% endfor %}
   </tbody>
 </table>
