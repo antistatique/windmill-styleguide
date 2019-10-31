@@ -1,7 +1,7 @@
 <table class=" table-data entry-hours">
   <thead>
     <tr>
-      <th colspan="2">Matin</th>
+      <th colspan="2">{{text|default('Matin')}}</th>
     </tr>
   </thead>
   <tbody>
@@ -9,12 +9,12 @@
       <td>Début</td>
       <td>
         {% include "@atoms/button/button-secondary.twig" with {icon: "chrono"}%}
-        08.35
+        {{startTime|default('08:35')}}
       </td>
     </tr>
     <tr>
       <td>Fin</td>
-      <td>12:05</td>
+      <td>{{endTime|default('12:05')}}</td>
     </tr>
   </tbody>
 </table>
