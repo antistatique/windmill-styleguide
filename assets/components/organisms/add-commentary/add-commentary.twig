@@ -1,8 +1,8 @@
-<div class="commentary pointer">
-  <span class="icon-right">
-  {% include "@atoms/icon/icon.twig"  with {icon: "close"} %}
-  </span>
+<div class="commentary" id="add-commentary">
+  <div class="icon-right" id="close-commendary">
+    <button> {% include "@atoms/icon/icon.twig"  with {icon: "close"} %}</button>
+  </div>
   {% include "@atoms/title/title.twig" with {textTitle: "Justifier vos heures"} %}
   <textarea rows="6">La raison de votre heure supplémentaire</textarea>
-  {% include "@atoms/button/button-validation.twig" %}
+  {% include "@atoms/button/button-validation.twig" with {id: 'validation'} %}
 </div>

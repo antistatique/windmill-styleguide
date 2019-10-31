@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 .commentary {
+  display: none;
+
+  &.open {
+    display: block;
+  }
+
   textarea {
     width: 100%;
     padding: 0.5rem;
@@ -15,7 +21,11 @@
 
   & .icon-right {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+
+    button {
+      border: none;
+    }
 
     .icon {
       align-self: flex-end;
