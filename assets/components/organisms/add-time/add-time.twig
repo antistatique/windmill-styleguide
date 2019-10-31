@@ -1,7 +1,7 @@
-<div class="add-time" id="add-time">
+<div class="add-time" id='time-add'>
   <div class="icon-right">
   {% include "@atoms/icon/icon.twig"  with {icon: "close"} %}
   </div>
-  <h2 class="title-time">{{textTitleTime|default('Ajouter du temps')}}</h2>
+  <h2 class="title-time">{{titleTime|default('Ajouter du temps')}}</h2>
   {% include "@molecules/time-selection/time-selection.twig" %}
 </div>
