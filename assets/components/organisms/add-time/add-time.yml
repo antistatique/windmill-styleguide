@@ -1,3 +1,6 @@
 title: Add time
 name: add-time
-background: "#d1d5db"
+background: '#d1d5db'
+variants:
+  - name: remove-time
+    title: Remove-time
