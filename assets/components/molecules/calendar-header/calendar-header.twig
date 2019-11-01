@@ -1,8 +1,8 @@
 <div class="header-calendar">
-  {% include "@atoms/icon/icon.twig"  with {icon: "arrow-left"} %}
+  <button id="left">{% include "@atoms/icon/icon.twig"  with {icon: "arrow-left"} %}</button>
   <div>
     <div class="month">Août 2019</div>
-    <div class="week">Semaine 32</div>
+    <div class="week" id="week">Semaine <span id="num-week">32<span></div>
   </div>
-  {% include "@atoms/icon/icon.twig"  with {icon: "arrow-right"} %}
+  <button id="right">{% include "@atoms/icon/icon.twig"  with {icon: "arrow-right"} %}</button>
 </div>
