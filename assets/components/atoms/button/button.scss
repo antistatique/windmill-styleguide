@@ -23,6 +23,11 @@
   padding: 1rem;
   color: $pink-statik;
   background-color: $pink-statik-clear;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: darken($pink-statik-clear, 5);
+  }
 }
 
 .button.button-validation {
@@ -31,6 +36,11 @@
   font-size: 1rem;
   background-color: $pink-statik;
   color: $white;
+  transition: background 0.2s;
+
+  &:hover {
+    background-color: darken($pink-statik, 10);
+  }
 }
 
 .button.button-number {
