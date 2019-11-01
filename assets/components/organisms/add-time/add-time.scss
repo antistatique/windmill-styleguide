@@ -6,10 +6,6 @@
   &.open {
     display: block;
   }
-
-  &.close {
-    display: none;
-  }
 }
 
 .title-time {
@@ -24,4 +20,9 @@
 .add-time .icon-right {
   display: flex;
   justify-content: flex-end;
+
+  button {
+    border: none;
+    cursor: pointer;
+  }
 }
