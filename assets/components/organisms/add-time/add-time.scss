@@ -2,6 +2,11 @@
 
 .add-time {
   display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $grey-commentary;
+  padding: 1rem;
 
   &.open {
     display: block;
@@ -24,5 +29,6 @@
   button {
     border: none;
     cursor: pointer;
+    background-color: $grey-commentary;
   }
 }
