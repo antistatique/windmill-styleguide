@@ -9,12 +9,42 @@
     "information",
     "trash"
   ],
-  "items": [
-    "Année en cours 2019",
-    "13.5 j",
-    "Report 2018",
-    "10.7 j",
-    "Heures supplémentaire",
-    "5.36 h"
+  "default_items": [
+    {
+      "title": "Année en cours 2019",
+      "value": "13.5 j"
+    },
+    {
+      "title": "Report 2018",
+      "value": "10.7 j"
+    },
+    {
+      "title": "Heures supplémentaire",
+      "value": "5.36 h"
+    }
+  ],
+  "edit1_items": [
+    {
+      "title": "Vacances posées",
+      "value": "24 j"
+    },
+    {
+      "title": "Heures supplémentaire récupérées",
+      "value": "5 j"
+    }
+  ],
+  "edit2_items": [
+    {
+      "title": "Maladie",
+      "value": "2 j"
+    },
+    {
+      "title": "Temps Formation",
+      "value": "2/5 j"
+    },
+    {
+      "title": "Budget Formation",
+      "value": "CHF 834/1200"
+    }
   ]
 }
