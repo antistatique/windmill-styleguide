@@ -50,13 +50,16 @@
     border: none;
     font-size: 0.9375rem;
     background-color: $white;
+    color: $black;
   }
 }
 
 .entry-hours {
   .button.button-secondary {
-    padding: 0.3125rem;
+    display: none;
+    padding: 0.5625rem;
     margin-right: 1.5rem;
+    &.visible { display: inline; }
   }
 }
 

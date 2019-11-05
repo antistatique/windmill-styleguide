@@ -2,7 +2,7 @@
   {% include "@molecules/calendar-header/calendar-header.twig" %}
   {% include "@molecules/status-hours/status-hours.twig" %}
   {% include "@molecules/calendar/calendar.twig" %}
-  {% include "@molecules/data-table/data-table-entry-hours.twig" %}
-  {% include "@molecules/data-table/data-table-entry-hours.twig" with { text: "Après-midi", startTime: "13:00", endTime: "17:20"} %}
+  {% include "@molecules/data-table/data-table-entry-hours.twig" with { id: "morning" }%}
+  {% include "@molecules/data-table/data-table-entry-hours.twig" with { text: "Après-midi", id:"afternoon" } %}
   {% include "@molecules/buttons-row/buttons-row.twig" %}
 </div>

@@ -3,11 +3,7 @@ export default () => {
     $('#less-time').addClass('open');
   });
 
-  $('#close-remove-time').on('click', function() {
-    $('#less-time').removeClass('open');
-  });
-
-  $('#val').on('click', function() {
+  $('#close-remove-time, #valid-remove-time').on('click', function() {
     $('#less-time').removeClass('open');
   });
 };

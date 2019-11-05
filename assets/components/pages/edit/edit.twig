@@ -1,5 +1,7 @@
-{% include "@organisms/stamp-hours/stamp-hours.twig" %}
-{% include "@molecules/nav/nav.twig" %}
-{% include "@organisms/add-commentary/add-commentary.twig" %}
-{% include "@organisms/add-time/add-time.twig" %}
-{% include "@organisms/remove-time/remove-time.twig" %}
+<div class="container-padding">
+  {% include "@organisms/stamp-hours/stamp-hours.twig" %}
+  {% include "@molecules/nav/nav.twig" with {active: 'edit'} %}
+  {% include "@organisms/add-commentary/add-commentary.twig" %}
+  {% include "@organisms/add-time/add-time.twig" %}
+  {% include "@organisms/remove-time/remove-time.twig" %}
+</div>    
