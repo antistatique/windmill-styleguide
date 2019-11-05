@@ -1,8 +1,4 @@
 export default () => {
-  $('#remove-time').on('click', function() {
-    $('#time').addClass('open');
-  });
-
   $('#add-time').on('click', function() {
     $('#time').addClass('open');
   });
