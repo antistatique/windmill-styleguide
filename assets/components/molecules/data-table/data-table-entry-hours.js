@@ -11,4 +11,8 @@ export default () => {
       $(this).text('08:35');
     });
   });
+
+  $('#now').on('click', function() {
+    $(this).css('display', 'none');
+  });
 };

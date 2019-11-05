@@ -8,13 +8,15 @@
     <tr>
       <td>Début</td>
       <td>
-        {% include "@atoms/button/button-secondary.twig" with {icon: "chrono"}%}
+        {% include "@atoms/button/button-secondary.twig" with {icon: "chrono", id: 'now'}%}
         <button id="test" class="zero" class="number">{{startTime|default('08:35')}}</button>
       </td>
     </tr>
     <tr>
       <td>Fin</td>
-      <td><button class="zero" class="number">{{endTime|default('12:05')}}</button></td>
+      <td>
+      <button class="zero" class="number">{{endTime|default('12:05')}}</button>
+      </td>
     </tr>
   </tbody>
 </table>

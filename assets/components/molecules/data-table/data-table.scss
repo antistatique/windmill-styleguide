@@ -20,11 +20,6 @@
 
   tbody td:last-of-type {
     text-align: right;
-
-    button {
-      border: none;
-      font-size: 0.9375rem;
-    }
   }
 }
 
@@ -50,6 +45,12 @@
 
 .entry-hours tbody td {
   padding: 1rem 0.5rem;
+
+  button {
+    border: none;
+    font-size: 0.9375rem;
+    background-color: $white;
+  }
 }
 
 .entry-hours {
