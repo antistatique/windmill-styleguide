@@ -1,4 +1,10 @@
+
+{% set active = active|default('edit') %}
 <div class="nav">
-  <a href="/pages/edit" class="active">{% include "@atoms/icon/icon.twig"  with {icon: "edit"} %}</a>
-  <a href="/pages/information">{% include "@atoms/icon/icon.twig"  with {icon: "dashboad"} %}</a>
+  <a href="/pages/edit"{% if active == "edit" %} class="active" {% endif %}>
+    {% include "@atoms/icon/icon.twig"  with {icon: "edit"} %}
+  </a>
+  <a href="/pages/information"{% if active == "information" %} class="active" {% endif %}>
+    {% include "@atoms/icon/icon.twig"  with {icon: "dashboad"} %}
+  </a>
 </div>
