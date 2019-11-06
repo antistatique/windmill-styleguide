@@ -11,3 +11,7 @@ html {
 *:after {
   box-sizing: border-box;
 }
+
+.text-muted {
+  color: $grey-entry !important;
+}

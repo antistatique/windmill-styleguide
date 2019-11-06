@@ -8,10 +8,20 @@ export default () => {
         const value = $(this)
           .next('.zero')
           .text();
+
         $(this).removeClass('visible');
         if (value === '00:00' && !hasVisible) {
           $(this).addClass('visible');
           hasVisible = true;
+        }
+
+        $(this)
+          .next('.zero')
+          .removeClass('text-muted');
+        if (value === '00:00') {
+          $(this)
+            .next('.zero')
+            .addClass('text-muted');
         }
       });
   };
@@ -39,11 +49,6 @@ export default () => {
 
   $('#now-end').on('click', function() {
     $('#morning-end').text('12:05');
-    setChrono();
-  });
-
-  $('#now-start').on('click', function() {
-    $('#morning-start').text('08:35');
     setChrono();
   });
 };
